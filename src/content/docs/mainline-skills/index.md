@@ -8,8 +8,8 @@ sidebar:
 
 Mainline skills for building LLM applications, agent capabilities, and agentic systems:
 
-- **[LLM applications](llm-applications/):** Build LLM-powered applications with platform APIs.
-- **[Agent capabilities](agent-capabilities/):** Develop reusable capabilities for applications and agents.
-- **[Agentic systems](agentic-systems/):** Build autonomous agentic systems.
+- **[LLM applications](llm-applications/):** Build and run LLM-powered applications.
+- **[Agent capabilities](agent-capabilities/):** Develop and share reusable agent capabilities.
+- **[Agentic systems](agentic-systems/):** Build and run agentic systems.
 
 Mainline skills are composable: each one adds a new area rather than deepening the previous one.

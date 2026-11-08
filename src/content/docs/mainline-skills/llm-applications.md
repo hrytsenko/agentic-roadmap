@@ -1,54 +1,59 @@
 ---
 title: LLM applications
-description: Build LLM-powered applications with platform APIs.
+description: Build and run LLM-powered applications.
 sidebar:
   order: 1
 ---
 
-## Goals
+Build and run LLM-powered applications.
 
-Build LLM-powered applications with platform APIs:
+## Topics
 
-- Engineer prompts and context to guide model behavior via Prompting.
-- Send prompts and handle model responses in code via LLM APIs.
+### Context engineering
 
-## Focus areas
+Assemble the context for model invocation.
 
-### Prompting
+- System instructions and examples to steer model behavior.
+- Templates to assemble static and dynamic content.
+- Retrieval to ground responses in relevant external data.
+- Trust boundaries and guardrails to handle untrusted content.
 
-- Use system instructions to steer model behavior.
-- Use templates and delimiters to separate dynamic content.
-- Use examples to clarify expected behavior and edge cases.
-- Use output formats to specify expected response structure.
+### LLM platforms
 
-### LLM APIs
+Integrate applications with models.
 
-- Use messages and conversation state to manage model interactions.
-- Use structured outputs to enable machine-to-machine integrations.
-- Use tool calling to define, invoke, and handle external actions.
-- Use error handling to manage refusals and malformed responses.
+- Conversation state to manage model interactions.
+- Structured outputs to enable machine-to-machine integrations.
+- Tool calling to trigger external actions and fetch live data.
+- Error handling to manage refusals and malformed responses.
 
-## Reflection questions
+### Infrastructure
 
-1. What should you consider when choosing a model for a task?
-   - Task type, quality vs. cost and latency.
-2. How can you control model request cost?
-   - Model selection, prompt caching.
-3. What are common ways to reduce context size?
-   - Context compaction, history truncation.
-4. How can you protect prompts that include untrusted content?
-   - Input isolation, output validation.
-5. How can you improve model behavior on multi-step tasks?
-   - System instructions, reasoning effort.
-6. How can you ground a model's answer?
-   - File retrieval, web search.
-7. How can you help a model discover and select tools?
-   - Tool definitions, tool search.
-8. How can you extend a model with new capabilities?
-   - Custom tools, MCP servers.
-9. Why might a model not complete a response?
-   - Output limits, safety refusals.
+Run applications in production.
 
-## Practical exercises
+- Gateways to control access, spend, and fallbacks across providers.
+- Self-hosted models to meet data sovereignty and cost constraints.
+- Vector stores to index and search data for retrieval.
 
-1. Build an LLM-powered application that uses custom tools.
+Tools: [LiteLLM](https://www.litellm.ai/), [Ollama](https://ollama.com/).
+
+## Exercises
+
+- Build an LLM application that uses retrieval and custom tools.
+- Route the application through a gateway to switch between hosted and local models.
+
+## Resources
+
+Platform APIs:
+
+- [Anthropic Messages API](https://platform.claude.com/docs/en/build-with-claude/working-with-messages)
+- [OpenAI Responses API](https://developers.openai.com/api/docs/quickstart)
+- [Google Interactions API](https://aistudio.google.com/docs/interactions-overview)
+
+Open standards:
+
+- [Open Responses](https://openresponses.org/)
+
+Security frameworks:
+
+- [OWASP Top 10 for LLM Applications](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/)

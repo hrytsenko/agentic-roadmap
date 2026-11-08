@@ -1,57 +1,59 @@
 ---
 title: Agentic systems
-description: Build autonomous agentic systems.
+description: Build and run agentic systems.
 sidebar:
   order: 3
 ---
 
-## Goals
+Build and run agentic systems.
 
-Build autonomous agentic systems:
-
-- Build and control autonomous agents via Agents.
-- Coordinate agents on complex tasks via Orchestration.
-
-## Focus areas
+## Topics
 
 ### Agents
 
-- Know the agent definition and execution models.
-- Use custom tools, skills, and MCP servers to extend agent capabilities.
-- Use deterministic hooks and human approvals to bound agent autonomy.
-- Use sandboxes and access controls for agents and tools.
+Build and control autonomous agents.
+
+- Agent loop and stop conditions to drive tasks to completion.
+- Built-in tools and custom capabilities to let agents act.
+- Compaction and memory to sustain long-running work.
+- Hooks and human approvals to bound agent autonomy.
 
 ### Orchestration
 
-- Use coordination, delegation, and escalation to route work among agents.
-- Use budgets and limits to bound agent execution.
-- Use proxies to invoke remote agents.
-- Use shared context to synchronize state across agents.
+Coordinate agents on complex tasks.
 
-## Reflection questions
+- Subagents and handoffs to delegate work with focused context.
+- Remote agents to collaborate across systems and vendors.
+- Shared state to coordinate work across agents.
+- Budgets and limits to cap cost and runtime.
 
-1. What makes an agent stop execution?
-   - Task completion, turn limits.
-2. How does an agent evaluate that a task is completed?
-   - Embedded rubrics, LLM-as-judge.
-3. Why does a long-running agent degrade?
-   - Context accumulation, attention dilution.
-4. How can an agent ground its reasoning?
-   - Web search, attached resources.
-5. Why is limiting an agent's tools a good strategy?
-   - Selection accuracy, blast radius.
-6. What sandboxes does an agent system rely on?
-   - Agent runtime, tool execution.
-7. What do you control at each sandbox boundary?
-   - Network policies, filesystem access.
-8. Why may a subagent do a task better than its parent?
-   - Focused instructions, context isolation.
-9. How can you enforce guarantees on agent actions?
-   - Tool hooks, human approvals.
-10. How can you improve agent work over time?
-    - Trajectory evaluation, learned memory.
+### Infrastructure
 
-## Practical exercises
+Run agents safely in production.
 
-1. Build an agent with built-in tools and custom capabilities.
-2. Coordinate two agents to complete a task together.
+- Sandboxes to isolate agent execution from hosts and networks.
+- Durable execution to resume long-running agents after failures.
+- Tracing to record agent trajectories for evaluation and review.
+
+Tools: [OpenSandbox](https://open-sandbox.ai/), [Temporal](https://temporal.io/), [Phoenix](https://arize.com/docs/phoenix).
+
+## Exercises
+
+- Build an agent with custom capabilities and run it in a sandbox.
+- Coordinate two agents on a task and trace their trajectories.
+
+## Resources
+
+Agent SDKs:
+
+- [Anthropic Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview)
+- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)
+- [Google ADK](https://adk.dev/)
+
+Open standards:
+
+- [Agent2Agent](https://a2a-protocol.org/latest/)
+
+Security frameworks:
+
+- [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)

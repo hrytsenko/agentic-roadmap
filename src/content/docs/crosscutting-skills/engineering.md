@@ -7,7 +7,9 @@ sidebar:
 
 Use agents to increase productivity, from personal assistance to bounded delegation.
 
-## Personal productivity
+## Levels
+
+### Personal productivity
 
 Adopt agents as interactive development assistants. Direct their work with focused prompts and relevant context. Capture project conventions, architectural decisions, and expectations in instruction files so agents start with the right context. Work in small, reversible steps, inspecting and refining proposed changes as you go.
 
@@ -17,7 +19,7 @@ Capabilities:
 - Use instruction files to guide agents with project conventions.
 - Use human-in-the-loop control to review and steer agent changes.
 
-## Team productivity
+### Team productivity
 
 Establish explicit, reusable workflows for agents. Shift from ad hoc prompts to specifications that define requirements, guide implementation, and track progress. Use commands and skills to standardize recurring work, and hooks to enforce guardrails on agent actions. Give agents fast feedback through verification gates and regression checks as they work through specification tasks. Automate first-pass review in pipelines to reduce manual oversight on routine changes.
 
@@ -28,7 +30,7 @@ Capabilities:
 - Apply verification gates and regression checks to validate agent changes.
 - Integrate agents into pipelines to review changes before human review.
 
-## Task delegation
+### Task delegation
 
 Delegate engineering work to autonomous agents. Decompose larger goals into bounded, verifiable tasks with defined outcomes, constraints, and acceptance criteria. Equip agents with specialized skills and external tools so they can execute tasks end to end. Constrain what agents can access and modify to keep their autonomy and blast radius under control. Score completed work to prioritize human review and streamline approval.
 
@@ -42,3 +44,19 @@ Capabilities:
 :::note[Trade-off]
 The trade-off is cost. As coding agent usage becomes more sophisticated, engineers may need higher-tier subscriptions to support larger contexts and more demanding workflows. Integrating agents into pipelines introduces usage-based costs, while autonomous agents require dedicated budgets. Further delegation of increasingly complex tasks can drive costs substantially higher, making them difficult to compare directly with developer subscription costs.
 :::
+
+## Resources
+
+Code editors:
+
+- [VS Code](https://code.visualstudio.com/)
+
+Coding agents:
+
+- [Anthropic Claude Code](https://claude.com/product/claude-code)
+- [OpenAI Codex](https://openai.com/codex/)
+- [Google Antigravity](https://antigravity.google/product/antigravity-cli)
+
+Open standards:
+
+- [AGENTS.md](https://agents.md/)
