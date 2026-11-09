@@ -31,7 +31,7 @@ Integrate applications with models.
 
 Run applications in production.
 
-- Gateways to control access, spend, and fallbacks across providers.
+- Gateways to control access, budgets, and fallbacks across providers.
 - Self-hosted models to meet data sovereignty and cost constraints.
 - Vector stores to index and search data for retrieval.
 

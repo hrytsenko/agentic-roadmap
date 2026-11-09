@@ -16,7 +16,7 @@ Develop reusable workflows.
 - Descriptions to trigger skills for relevant tasks.
 - Instructions to encode procedures and domain knowledge.
 - Progressive disclosure to load resources only when needed.
-- Scripts to execute deterministic steps and save context.
+- Scripts to run deterministic steps and save context.
 
 ### MCP servers
 

@@ -32,7 +32,7 @@ Capabilities:
 
 ### Task delegation
 
-Delegate engineering work to autonomous agents. Decompose larger goals into bounded, verifiable tasks with defined outcomes, constraints, and acceptance criteria. Equip agents with specialized skills and external tools so they can execute tasks end to end. Constrain what agents can access and modify to keep their autonomy and blast radius under control. Score completed work to prioritize human review and streamline approval.
+Delegate engineering work to autonomous agents. Decompose larger goals into bounded, verifiable tasks with defined outcomes, constraints, and acceptance criteria. Equip agents with specialized skills and external tools so they can complete tasks end to end. Constrain what agents can access and modify to keep their autonomy and blast radius under control. Score completed work to prioritize human review and streamline approval.
 
 Capabilities:
 
