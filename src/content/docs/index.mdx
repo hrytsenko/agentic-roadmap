@@ -10,20 +10,20 @@ import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 export const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-The roadmap includes two kinds of skills:
+The roadmap is organized into areas and practices:
 
-- **Mainline skills:** Skills for applying AI in practice, each adding a new area, from LLM applications to complete agentic systems that enable new business capabilities.
-- **Crosscutting skills:** Skills that operate across the full roadmap rather than within a single mainline skill, accelerating delivery and maintaining the quality and reliability of outcomes.
+- **Areas:** Areas of applied agentic engineering, each adding new scope, from LLM applications to complete agentic systems.
+- **Practices:** Practices that apply across all areas, accelerating delivery and maintaining the quality of outcomes.
 
 <CardGrid>
 	<LinkCard
-		title="Mainline skills"
+		title="Areas"
 		description="LLM applications, agent capabilities, and agentic systems."
-		href={`${base}/mainline-skills/`}
+		href={`${base}/areas/`}
 	/>
 	<LinkCard
-		title="Crosscutting skills"
+		title="Practices"
 		description="Engineering and evaluation."
-		href={`${base}/crosscutting-skills/`}
+		href={`${base}/practices/`}
 	/>
 </CardGrid>
