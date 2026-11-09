@@ -33,7 +33,7 @@ Run agents safely in production.
 
 - Sandboxes to isolate agent execution from hosts and networks.
 - Durable execution to resume long-running agents after failures.
-- Tracing to record agent trajectories for evaluation and review.
+- Tracing to record agent trajectories for monitoring and audit.
 
 Tools: [OpenSandbox](https://open-sandbox.ai/), [Temporal](https://temporal.io/), [Phoenix](https://arize.com/docs/phoenix).
 

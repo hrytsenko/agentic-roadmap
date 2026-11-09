@@ -15,9 +15,9 @@ Evaluate the outputs of single-turn prompts. Define what good output looks like 
 
 Capabilities:
 
-- Use evaluation datasets to capture golden examples.
-- Use code-based and model-based graders to check responses.
-- Use adversarial inputs to test resilience to prompt injection.
+- Capture golden examples in evaluation datasets.
+- Check responses with code-based and model-based graders.
+- Test resilience to prompt injection with adversarial inputs.
 
 ### Workflow outcomes
 
@@ -25,9 +25,9 @@ Evaluate the outcomes of reusable workflows on realistic tasks. Re-run evaluatio
 
 Capabilities:
 
-- Use regression suites to detect quality drift in outcomes.
-- Use external rubrics to grade multi-step workflow outcomes.
-- Use adversarial tasks to test resilience to indirect prompt injection.
+- Detect drift in outcome quality with regression suites.
+- Grade multi-step workflow outcomes against external rubrics.
+- Test resilience to indirect prompt injection with adversarial tasks.
 
 ### Agent behaviors
 
@@ -35,9 +35,9 @@ Evaluate the behavior of autonomous agents on real tasks. Since the same goal ca
 
 Capabilities:
 
-- Use trajectory transcripts to detect drift in behavior.
-- Use internal rubrics to guide self-critique and verify task completion.
-- Use red-teaming to probe for misuse, policy bypass, and autonomous misbehavior.
+- Detect drift in agent behavior from trajectory transcripts.
+- Guide self-critique and verify task completion with internal rubrics.
+- Probe for misuse, policy bypass, and autonomous misbehavior through red-teaming.
 
 ## Resources
 

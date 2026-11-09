@@ -41,10 +41,6 @@ Capabilities:
 - Control agent autonomy and blast radius.
 - Use scorers to triage changes for human review.
 
-:::note[Trade-off]
-The trade-off is cost. As coding agent usage becomes more sophisticated, engineers may need higher-tier subscriptions to support larger contexts and more demanding workflows. Integrating agents into pipelines introduces usage-based costs, while autonomous agents require dedicated budgets. Further delegation of increasingly complex tasks can drive costs substantially higher, making them difficult to compare directly with developer subscription costs.
-:::
-
 ## Resources
 
 Code editors:
