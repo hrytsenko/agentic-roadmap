@@ -8,8 +8,8 @@ Published at [Hrytsenko - Agentic Roadmap](https://hrytsenko.github.io/agentic-r
 
 ```sh
 npm install
-npm run dev      # http://localhost:4321/agentic-roadmap/
-npm run build    # output in dist/
+npm run dev      # run at http://localhost:4321/agentic-roadmap/
+lychee .         # check links
 ```
 
-Pushing to `main` deploys the site.
+Pushing to `main` deploys the site and checks links with [lychee](https://lychee.cli.rs/), which also runs weekly.

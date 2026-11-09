@@ -43,15 +43,11 @@ Capabilities:
 
 ## Resources
 
-Code editors:
-
-- [VS Code](https://code.visualstudio.com/)
-
 Coding agents:
 
-- [Anthropic Claude Code](https://claude.com/product/claude-code)
-- [OpenAI Codex](https://openai.com/codex/)
-- [Google Antigravity](https://antigravity.google/product/antigravity-cli)
+- [Anthropic Claude Code](https://code.claude.com/docs/en/overview)
+- [OpenAI Codex](https://learn.chatgpt.com/docs)
+- [Google Antigravity](https://antigravity.google/docs/overview)
 
 Open standards:
 
