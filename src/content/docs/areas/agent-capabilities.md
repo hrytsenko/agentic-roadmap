@@ -48,4 +48,8 @@ Open standards:
 
 - [Agent Skills](https://agentskills.io/)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
-- [Agent Plugins](https://agent-plugin.org/)
+- [Agent Plugins](https://agent-plugins.org/)
+
+Security frameworks:
+
+- [OWASP MCP Top 10](https://owasp.org/projects/mcp-top-10)

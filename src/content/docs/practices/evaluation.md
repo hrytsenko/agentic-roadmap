@@ -44,7 +44,9 @@ Capabilities:
 Tools:
 
 - [Promptfoo](https://www.promptfoo.dev/)
+- [Inspect](https://inspect.aisi.org.uk/)
 
 Security frameworks:
 
 - [MITRE ATLAS](https://atlas.mitre.org/)
+- [OWASP GenAI Red Teaming Guide](https://genai.owasp.org/resource/genai-red-teaming-guide/)

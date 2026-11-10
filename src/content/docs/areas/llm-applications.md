@@ -35,7 +35,7 @@ Run applications in production.
 - Self-hosted models to meet data sovereignty and cost constraints.
 - Vector stores to index and search data for retrieval.
 
-Tools: [LiteLLM](https://www.litellm.ai/), [Ollama](https://ollama.com/).
+Tools: [Ollama](https://ollama.com/).
 
 ## Exercises
 
@@ -56,4 +56,4 @@ Open standards:
 
 Security frameworks:
 
-- [OWASP Top 10 for LLM Applications](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/)
+- [OWASP Top 10 for LLM Applications](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)

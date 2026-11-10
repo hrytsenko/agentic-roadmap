@@ -49,6 +49,11 @@ Coding agents:
 - [OpenAI Codex](https://learn.chatgpt.com/docs)
 - [Google Antigravity](https://antigravity.google/docs/overview)
 
+SDD frameworks:
+
+- [Spec Kit](https://github.github.com/spec-kit/)
+- [OpenSpec](https://openspec.dev/)
+
 Open standards:
 
 - [AGENTS.md](https://agents.md/)
