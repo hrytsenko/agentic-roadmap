@@ -32,10 +32,14 @@ Expose external tools and data.
 Share and govern capabilities.
 
 - Marketplaces and plugins to distribute skills and servers.
-- Scanners to vet skills and servers against supply-chain risks.
 - Gateways to centralize access, policy, and audit for MCP servers.
+- Scanners to vet skills and servers against supply-chain risks.
 
-Tools: [agentgateway](https://agentgateway.dev/).
+Tools:
+
+- [agentgateway](https://agentgateway.dev/)
+- [Cisco Skill Scanner](https://cisco-ai-defense.github.io/docs/skill-scanner)
+- [Cisco MCP Scanner](https://cisco-ai-defense.github.io/docs/mcp-scanner)
 
 ## Exercises
 

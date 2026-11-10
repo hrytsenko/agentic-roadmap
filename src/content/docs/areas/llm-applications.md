@@ -31,16 +31,20 @@ Integrate applications with models.
 
 Run applications in production.
 
+- Provider-agnostic SDKs to switch models without code changes.
 - Gateways to control access, budgets, and fallbacks across providers.
 - Self-hosted models to meet data sovereignty and cost constraints.
 - Vector stores to index and search data for retrieval.
 
-Tools: [Ollama](https://ollama.com/).
+Tools:
+
+- [LiteLLM](https://docs.litellm.ai/docs/)
+- [Ollama](https://ollama.com/)
 
 ## Exercises
 
 - Build an LLM application that uses retrieval and custom tools.
-- Route the application through a gateway to switch between hosted and local models.
+- Route an LLM application through a gateway to a self-hosted model.
 
 ## Resources
 

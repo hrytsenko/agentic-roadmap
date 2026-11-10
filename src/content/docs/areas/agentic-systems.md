@@ -35,7 +35,11 @@ Run agents safely in production.
 - Durable execution to resume long-running agents after failures.
 - Tracing to record agent trajectories for monitoring and audit.
 
-Tools: [OpenSandbox](https://open-sandbox.ai/), [Temporal](https://temporal.io/), [Phoenix](https://arize.com/docs/phoenix).
+Tools:
+
+- [OpenSandbox](https://open-sandbox.ai/)
+- [Temporal](https://temporal.io/)
+- [Phoenix](https://arize.com/docs/phoenix)
 
 ## Exercises
 
