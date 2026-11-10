@@ -40,6 +40,7 @@ Tools:
 
 - [LiteLLM](https://docs.litellm.ai/docs/)
 - [Ollama](https://ollama.com/)
+- [Qdrant](https://qdrant.tech/documentation/)
 
 ## Exercises
 
