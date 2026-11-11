@@ -48,6 +48,11 @@ Agent SDKs:
 - [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)
 - [Google ADK](https://adk.dev/)
 
+Minimal agents:
+
+- [Pi](https://pi.dev/docs/latest)
+- [mini-SWE-agent](https://mini-swe-agent.com/latest/)
+
 Infrastructure tools:
 
 - [OpenSandbox](https://open-sandbox.ai/)

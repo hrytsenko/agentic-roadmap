@@ -52,6 +52,7 @@ Platform APIs:
 Infrastructure tools:
 
 - [LiteLLM](https://docs.litellm.ai/docs/)
+- [OpenRouter](https://openrouter.ai/docs/quickstart)
 - [Ollama](https://ollama.com/)
 - [Qdrant](https://qdrant.tech/documentation/)
 

@@ -48,6 +48,7 @@ Coding agents:
 - [Anthropic Claude Code](https://code.claude.com/docs/en/overview)
 - [OpenAI Codex](https://learn.chatgpt.com/docs)
 - [Google Antigravity](https://antigravity.google/docs/overview)
+- [OpenCode](https://opencode.ai/docs/)
 
 SDD frameworks:
 
