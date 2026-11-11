@@ -1,2 +1,5 @@
 agentgateway
 Promptfoo
+ripgrep
+uv
+yq

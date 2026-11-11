@@ -22,7 +22,12 @@ export default defineConfig({
 			description: 'An opinionated roadmap for agentic engineering.',
 			social: [{ icon: 'github', label: 'GitHub', href: repo }],
 			customCss: ['./src/styles/custom.css'],
-			sidebar: [{ slug: 'route' }, group('Areas', 'areas'), group('Practices', 'practices')],
+			sidebar: [
+				{ slug: 'route' },
+				group('Areas', 'areas'),
+				group('Practices', 'practices'),
+				{ slug: 'environment' },
+			],
 		}),
 	],
 });

@@ -16,11 +16,13 @@ src/content/docs/
   practices/
     index.md       # practices overview
     <practice>.md  # practice page
+  environment.md   # environment
 ```
 
 - **Route:** Cumulative milestones that combine areas with practice levels.
 - **Area:** Topics, exercises, and resources that cover a self-sufficient scope.
 - **Practice:** Levels and resources that develop capabilities across all areas.
+- **Environment:** Runtimes and tools that agents know best.
 
 ## Develop
 

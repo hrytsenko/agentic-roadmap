@@ -9,7 +9,9 @@ Follow the milestones in order, keeping earlier ones in use. At every milestone,
 
 ## Approach
 
-Every milestone follows the same approach:
+Set up the [environment](../environment/) before the first milestone.
+
+For each milestone, go through these steps:
 
 1. Learn the area topics to gain a broad understanding.
 2. Develop the practice capabilities in daily work with agents.
