@@ -11,9 +11,9 @@ Build and run LLM-powered applications.
 
 ### Context engineering
 
-Assemble the context for model invocation.
+Assemble context for model invocation.
 
-- System instructions and examples to steer model behavior.
+- System instructions to steer model behavior.
 - Templates to assemble static and dynamic content.
 - Retrieval to ground responses in relevant external data.
 - Trust boundaries and guardrails to handle untrusted content.
@@ -31,7 +31,7 @@ Integrate applications with models.
 
 Run applications in production.
 
-- Provider-agnostic SDKs to switch models without code changes.
+- Provider-agnostic SDKs to let users choose their models.
 - Gateways to control access, budgets, and fallbacks across providers.
 - Self-hosted models to meet data sovereignty and cost constraints.
 - Vector stores to index and search data for retrieval.

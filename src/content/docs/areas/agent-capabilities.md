@@ -11,7 +11,7 @@ Develop and share reusable agent capabilities.
 
 ### Agent skills
 
-Develop reusable workflows.
+Develop and package reusable workflows.
 
 - Descriptions to trigger skills for relevant tasks.
 - Instructions to encode procedures and domain knowledge.
@@ -20,7 +20,7 @@ Develop reusable workflows.
 
 ### MCP servers
 
-Expose external tools and data.
+Expose and secure tools and data.
 
 - Tools and resources to expose actions and data.
 - Tool descriptions and schemas to guide selection and validate arguments.

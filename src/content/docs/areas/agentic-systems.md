@@ -20,7 +20,7 @@ Build and control autonomous agents.
 
 ### Orchestration
 
-Coordinate agents on complex tasks.
+Compose and coordinate agents on complex tasks.
 
 - Subagents and handoffs to delegate work with focused context.
 - Remote agents to collaborate across systems and vendors.
@@ -29,7 +29,7 @@ Coordinate agents on complex tasks.
 
 ### Infrastructure
 
-Run agents safely in production.
+Run and monitor agents in production.
 
 - Sandboxes to isolate agent execution from hosts and networks.
 - Durable execution to resume long-running agents after failures.
