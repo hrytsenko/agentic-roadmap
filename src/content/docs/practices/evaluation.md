@@ -41,7 +41,7 @@ Capabilities:
 
 ## Resources
 
-Tools:
+Evaluation frameworks:
 
 - [Promptfoo](https://www.promptfoo.dev/)
 - [Inspect](https://inspect.aisi.org.uk/)

@@ -35,12 +35,6 @@ Run agents safely in production.
 - Durable execution to resume long-running agents after failures.
 - Tracing to record agent trajectories for monitoring and audit.
 
-Tools:
-
-- [OpenSandbox](https://open-sandbox.ai/)
-- [Temporal](https://temporal.io/)
-- [Phoenix](https://arize.com/docs/phoenix)
-
 ## Exercises
 
 - Build an agent with custom capabilities and run it in a sandbox.
@@ -53,6 +47,12 @@ Agent SDKs:
 - [Anthropic Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview)
 - [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)
 - [Google ADK](https://adk.dev/)
+
+Infrastructure tools:
+
+- [OpenSandbox](https://open-sandbox.ai/)
+- [Temporal](https://temporal.io/)
+- [Phoenix](https://arize.com/docs/phoenix)
 
 Open standards:
 

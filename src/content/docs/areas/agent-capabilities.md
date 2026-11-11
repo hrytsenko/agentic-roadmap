@@ -35,18 +35,18 @@ Share and govern capabilities.
 - Gateways to centralize access, policy, and audit for MCP servers.
 - Scanners to vet skills and servers against supply-chain risks.
 
-Tools:
-
-- [agentgateway](https://agentgateway.dev/)
-- [Cisco Skill Scanner](https://cisco-ai-defense.github.io/docs/skill-scanner)
-- [Cisco MCP Scanner](https://cisco-ai-defense.github.io/docs/mcp-scanner)
-
 ## Exercises
 
 - Build an agent skill and distribute it as a plugin.
 - Build an MCP server and connect it to an agent through a gateway.
 
 ## Resources
+
+Infrastructure tools:
+
+- [agentgateway](https://agentgateway.dev/)
+- [Cisco Skill Scanner](https://cisco-ai-defense.github.io/docs/skill-scanner)
+- [Cisco MCP Scanner](https://cisco-ai-defense.github.io/docs/mcp-scanner)
 
 Open standards:
 

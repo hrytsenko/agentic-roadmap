@@ -36,12 +36,6 @@ Run applications in production.
 - Self-hosted models to meet data sovereignty and cost constraints.
 - Vector stores to index and search data for retrieval.
 
-Tools:
-
-- [LiteLLM](https://docs.litellm.ai/docs/)
-- [Ollama](https://ollama.com/)
-- [Qdrant](https://qdrant.tech/documentation/)
-
 ## Exercises
 
 - Build an LLM application that uses retrieval and custom tools.
@@ -54,6 +48,12 @@ Platform APIs:
 - [Anthropic Messages API](https://platform.claude.com/docs/en/build-with-claude/working-with-messages)
 - [OpenAI Responses API](https://developers.openai.com/api/docs/quickstart)
 - [Google Interactions API](https://aistudio.google.com/docs/interactions-overview)
+
+Infrastructure tools:
+
+- [LiteLLM](https://docs.litellm.ai/docs/)
+- [Ollama](https://ollama.com/)
+- [Qdrant](https://qdrant.tech/documentation/)
 
 Open standards:
 
