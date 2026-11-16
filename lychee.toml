@@ -1,2 +1,5 @@
 # Check web links only.
 scheme = ["https", "http"]
+
+# Skip hosts that block link checkers.
+exclude = ['^https://www\.gnu\.org/']

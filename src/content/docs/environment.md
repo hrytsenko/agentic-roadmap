@@ -11,7 +11,7 @@ Coding agents act through the shell, so the tools installed on the host define w
 
 Run commands, scripts, tools, and services.
 
-- [Bash](https://www.gnu.org/software/bash/manual/) to run commands in the shell syntax agents know best.
+- [Bash](https://www.gnu.org/software/bash/) to run commands in the shell syntax agents know best.
 - [Python](https://docs.python.org/3/) and [uv](https://docs.astral.sh/uv/) to run Python scripts and tools from PyPI.
 - [Node.js](https://nodejs.org/learn) and [npm](https://docs.npmjs.com/) to run JavaScript scripts and tools from npm.
 - [Docker](https://docs.docker.com/get-started/) to run self-hosted infrastructure in isolated containers.
